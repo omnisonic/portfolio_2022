@@ -104,3 +104,21 @@ body {background: #000;}
 canvas {display: block;}
 
 /* matrix rain */
+
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #808080;
+}
+.fab {
+    color: #fff;
+}
+/* footer styling */
+#footer {
+    /* background-color: #808080; */
+    text-align: center;
+}
