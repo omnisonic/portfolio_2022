@@ -8,6 +8,9 @@ pelican = "==4.7.1"
 invoke = "*"
 livereload = "*"
 markdown = "*"
+requests = "*"
+pygithub = "*"
+click = "*"
 
 [dev-packages]
 
