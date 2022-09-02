@@ -122,7 +122,7 @@ html {
   .intro h1 {
     font-family: Crete Round, sans-serif;
     font-style: normal;
-    color: #ff6b00;
+    color: #2a26595e;
     padding-top: 120px;
     margin: auto;
     font-weight: lighter;
@@ -222,6 +222,7 @@ html {
     line-height: 24px;
     padding: 0 24px 10px 0;
     margin: 0;
+
   }
   
   button {
@@ -230,7 +231,7 @@ html {
     top: 259px;
     border-radius: 0;
     padding: 12px;
-    background-color: #ff6b00;
+    background-color: #2a26595e;
     font-family: Inter, sans-serif;
     font-size: 17px;
     font-style: normal;
@@ -245,13 +246,13 @@ html {
   }
   
   button:hover {
-    border: 1px solid #f55800;
-    background-color: #fff5e1;
-    color: #f55b00;
+    border: 1px solid #2a26595e;
+    background-color: rgb(122, 31, 31);
+    color: #fff;
   }
   
   button:active {
-    background-color: #e05304;
+    background-color: #2a26595e;
     color: #f4f1f0;
   }
   
@@ -266,16 +267,17 @@ html {
     position: fixed;
     top: 10%;
     bottom: 10%;
-    left: 10%;
-    right: 10%;
+    left: 20%;
+    right: 20%;
     padding: 10px;
     background: white;
-    width: auto;
+    width: 80%;
     height: auto;
     z-index: 5;
     overflow: hidden;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     border-radius: 15px;
+    background-color: #3d556a;
   }
   
   .pop_up button {
@@ -366,6 +368,7 @@ html {
     padding: 25px;
     gap: 24px;
     grid-template: repeat(auto-fill, minmax(300px, 1fr)) / 1fr;
+    border-radius: 15px;
   }
   
   .grid-item {
@@ -375,6 +378,7 @@ html {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-top: 20px;
+    border-radius: 15px;
   }
   
   .grid-item:hover {
@@ -430,11 +434,13 @@ html {
   .grid-item > button {
     width: 100%;
     margin-top: 0;
+    border-radius: 0 0 15px 15px;
   }
   
   .about-me {
     margin-top: 100px;
     background: #1c1a19;
+    color: #fff;
   }
   
   .image-container {
@@ -454,7 +460,7 @@ html {
     line-height: 88px;
     letter-spacing: 0.3700000047683716px;
     text-align: left;
-    color: #ff6b00;
+    /* color: #2a26595e; */
     padding: 120px 24px 15px 24px;
     margin: 0;
   }
@@ -662,7 +668,7 @@ html {
   
     to {
       transform: rotate(360deg);
-      color: #ff6b00;
+      color: #2a26595e;
     }
   }
   
@@ -683,8 +689,8 @@ html {
       align-self: center;
       top: 10%;
       padding: 10px;
-      background-color: #6c757d;
-      width: 80%;
+      background-color: #3d556a;
+      width: auto;
     }
   
     .pop_up_image_and_content {
@@ -750,8 +756,8 @@ html {
       padding: 15px 10px 35% 0;
       width: 100px;
       height: 100px;
-      transform: scale(1);
-      background-color: #1c1a19;
+      transform: scale(2);
+
     }
   
     .pop_up_links {
@@ -925,6 +931,13 @@ html {
       background-size: 100% 100%;
       height: auto;
       margin-top: 20px;
+    }
+
+    .grid-item {
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out;
+      transition: .5s ease-in-out;
     }
   
     .grid-item h3 {

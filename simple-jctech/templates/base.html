@@ -20,54 +20,15 @@
   <!-- <link rel="stylesheet" media="(min-width: 901px)" type="text/css" href="{{ SITEURL }}/theme/css/style.css" />
   <link rel="stylesheet" media="(max-width: 900px)" type="text/css" href="{{ SITEURL }}/theme/css/small.css" /> -->
 
-  {% if FEED_ALL_ATOM %}
-  <link
-    href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}"
-    type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
-  {% endif %}
-  {% if FEED_ALL_RSS %}
-  <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}"
-    type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
-  {% endif %}
-  {% if FEED_ATOM %}
-  <link href="{{ FEED_DOMAIN }}/{%if FEED_ATOM_URL %}{{ FEED_ATOM_URL }}{% else %}{{ FEED_ATOM }}{% endif %}"
-    type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
-  {% endif %}
-  {% if FEED_RSS %}
-  <link href="{{ FEED_DOMAIN }}/{% if FEED_RSS_URL %}{{ FEED_RSS_URL }}{% else %}{{ FEED_RSS }}{% endif %}"
-    type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
-  {% endif %}
-  {% if CATEGORY_FEED_ATOM and category %}
-  <link
-    href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_ATOM_URL %}{{ CATEGORY_FEED_ATOM_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_ATOM.format(slug=category.slug) }}{% endif %}"
-    type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categories Atom Feed" />
-  {% endif %}
-  {% if CATEGORY_FEED_RSS and category %}
-  <link
-    href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_RSS_URL %}{{ CATEGORY_FEED_RSS_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_RSS.format(slug=category.slug) }}{% endif %}"
-    type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categories RSS Feed" />
-  {% endif %}
-  {% if TAG_FEED_ATOM and tag %}
-  <link
-    href="{{ FEED_DOMAIN }}/{% if TAG_FEED_ATOM_URL %}{{ TAG_FEED_ATOM_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_ATOM.format(slug=tag.slug) }}{% endif %}"
-    type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
-  {% endif %}
-  {% if TAG_FEED_RSS and tag %}
-  <link
-    href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}"
-    type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
-  {% endif %}
+ 
   {% endblock head %}
 </head>
 
 <body id="index" class="home bg-dark ">
 
-    <div class="hero-image">
-    <img src="/static/images/header-2_cropped.jpg" class="img-fluid" alt="Responsive image"> -->
-
-    
+  <div class="container-md">
  <nav id="menu"><ul>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="{{SITEURL}}/">Home</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -105,6 +66,8 @@
       </div>
     </div>
   </nav>
+</div>
+
   <!-- <div class="hero-image">
     <img src="/static/images/header-2_cropped.jpg" class="img-fluid" alt="Responsive image"> -->
     <!-- <div class="hero-text">
@@ -114,9 +77,10 @@
     </div> -->
   <!-- </div> -->
   <!-- /#menu -->
+  <img src="/theme/images/profile-pic(1).png" class="mx-auto d-block" width="100" alt="Responsive image">
   <div id="wrapper">
     
-			  <canvas style="position: inherit; z-index: -1; ">  </canvas>
+
         <div class="header bg-dark text-secondary px-4 text-center" style="position: inherit; z-index: 1; ">
           <h1 class="display-5 fw-bold text-white">{{ SITENAME }}</h1>
           <div class="col-lg-6 mx-auto">

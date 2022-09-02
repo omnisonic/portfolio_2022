@@ -38,12 +38,12 @@ save_as: index.html
     </div>
     <div class="headlines">
         <div class="image_headline">
-        <img src="./images/To-do.png" alt="Image place holder" />
+        <img src="./images/Screen Shot 2022-09-01 at 7.30.34 PM.jpg" alt="Image place holder" />
         </div>
         <div class="discription_headline">
-        <h4>Minimalist to-do list project</h4>
+        <h4>Django - Team Work log</h4>
         <p>
-            In this minimalist to do list project I have used the best practice of java script, HTML and CSS. This project is fully responsive both for desktop and also for mobile version. Java script has been used to populate the HTML elements and CSS has been used to give the website a better look. As a measurement unit I have used rem and em to make it more adaptive to different vendors
+            This is a django project for keeping track of team work.  Users can log in to record their work and hours.  Admin can view all the work logs and can edit or delete them. Admin can also add new users. This project is deployed on Heroku. The source code is available on Github. There are custom views so that work hours can be calculated for each month.  Users can also upload  a screenshot of their work with each post, hosted on AWS S3.
         </p>
         <ul class="tags">
             <li>HTML</li>
