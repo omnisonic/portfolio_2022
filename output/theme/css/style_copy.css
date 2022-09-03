@@ -8,8 +8,17 @@ html {
   }
   
   img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+
+    }
+
+  img {
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
   }
+  
   
   .blur {
     filter: blur(20px);
@@ -231,7 +240,7 @@ html {
     top: 259px;
     border-radius: 0;
     padding: 12px;
-    background-color: #2a26595e;
+    background-color: #212529;
     font-family: Inter, sans-serif;
     font-size: 17px;
     font-style: normal;
@@ -267,11 +276,11 @@ html {
     position: fixed;
     top: 10%;
     bottom: 10%;
-    left: 20%;
-    right: 20%;
+    left: 10%;
+    right: 10%;
     padding: 10px;
     background: white;
-    width: 80%;
+    width: auto;
     height: auto;
     z-index: 5;
     overflow: hidden;
@@ -374,7 +383,7 @@ html {
   .grid-item {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(https://freepngimg.com/thumb/paint/99630-color-paint-art-free-hq-image.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-top: 20px;
@@ -382,7 +391,7 @@ html {
   }
   
   .grid-item:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   
   .grid-item h3 {
@@ -446,7 +455,7 @@ html {
   .image-container {
     height: 300px;
     width: 100%;
-    background-image: url("./images/Illustration_image.png");
+    background-image: url("https://freepngimg.com/thumb/paint/99630-color-paint-art-free-hq-image.png");
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
@@ -699,8 +708,8 @@ html {
     }
   
     #pop_up_image {
-      width: 600px;
-      height: 350px;
+      width: 400px;
+      height: auto;
     }
   
     .pop_up_tags {
@@ -890,8 +899,9 @@ html {
     }
   
     .headlines .image_headline img {
-      width: 500px;
-      height: 400px;
+      width: 400px;
+      height: auto;
+    
     }
   
     .headlines .discription_headline {
@@ -926,12 +936,13 @@ html {
     .grid-item {
       display: flex;
       flex-direction: column;
-      background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/Personal_art.png);
+      background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgb(61, 85, 106) 61.94%), url(https://freepngimg.com/thumb/paint/99630-color-paint-art-free-hq-image.png);
       background-repeat: no-repeat;
       background-size: 100% 100%;
       height: auto;
       margin-top: 20px;
     }
+    
 
     .grid-item {
       -webkit-transition: .5s ease-in-out;
@@ -946,12 +957,13 @@ html {
   
     .about-me {
       background-color: #1c1a19;
-      background-image: url("./images/About-me-illustration-img.png");
+      background-image: url("https://freepngimg.com/thumb/paint/99630-color-paint-art-free-hq-image.png");
       background-repeat: no-repeat;
       background-position-x: right;
       background-position-y: 90px;
       background-size: 40%;
       height: auto;
+      border-radius: 20px;
     }
   
     .image-container {

@@ -1,4 +1,4 @@
-Title: Welcome
+Title: 
 URL:
 save_as: index.html
 
@@ -43,7 +43,7 @@ save_as: index.html
         <div class="discription_headline">
         <h4>Django - Team Work log</h4>
         <p>
-            This is a django project for keeping track of team work.  Users can log in to record their work and hours.  Admin can view all the work logs and can edit or delete them. Admin can also add new users. This project is deployed on Heroku. The source code is available on Github. There are custom views so that work hours can be calculated for each month.  Users can also upload  a screenshot of their work with each post, hosted on AWS S3.
+            This is a Django project for keeping track of team work.  Users can log in to record their work and hours.  Admin can view all the work logs and can edit or delete them. Admin can also add new users. This project is deployed on Heroku. The source code is available on Github. There are custom views so that work hours can be calculated for each month.  Users can also upload  a screenshot of their work with each post, hosted on AWS S3.
         </p>
         <ul class="tags">
             <li>HTML</li>
