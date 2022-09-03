@@ -2,7 +2,7 @@ Title:
 URL:
 save_as: index.html
 
-<script>
+<!-- <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
     dataLayer.push(arguments);
@@ -10,7 +10,7 @@ save_as: index.html
     gtag("js", new Date());
 
     gtag("config", "G-MY1T6NLGD0");
-</script>
+</script> -->
 
 <link rel="stylesheet" href="/theme/css/style_copy.css" />
 <link
@@ -31,14 +31,14 @@ save_as: index.html
 ></script>
 
 <section class="main_page">
-<section class="recent_works">
+<section id="projects" class="recent_works">
     <div class="works_title">
         <h3>My Recent Works</h3>
         <hr />
     </div>
     <div class="headlines">
         <div class="image_headline">
-        <img src="./images/Screen Shot 2022-09-01 at 7.30.34 PM.jpg" alt="Image place holder" />
+        <img src="./images/Screen Shot 2022-09-01 at 7.30.34 PM.jpg" alt="artistic image" />
         </div>
         <div class="discription_headline">
         <h4>Django - Team Work log</h4>
@@ -46,10 +46,10 @@ save_as: index.html
             This is a Django project for keeping track of team work.  Users can log in to record their work and hours.  Admin can view all the work logs and can edit or delete them. Admin can also add new users. This project is deployed on Heroku. The source code is available on Github. There are custom views so that work hours can be calculated for each month.  Users can also upload  a screenshot of their work with each post, hosted on AWS S3.
         </p>
         <ul class="tags">
-            <li>HTML</li>
+            <li>Django</li>
             <li>CSS</li>
             <li>Javascript</li>
-            <li>Webpack</li>
+            <li>Python</li>
         </ul>
         <button class="popup_display_button" id="1" type="button">See Project</button>
         </div>
@@ -58,6 +58,8 @@ save_as: index.html
 </section>
 <section class="grid-container" id="Portfolio">
 </section>
+
+<!-- About Section -->
 <section class="about-me" id="About">
 <div class="description_about_my_self">
     <h3>About Me</h3>
@@ -77,7 +79,7 @@ save_as: index.html
     <ul>
         <li class="language">Language</li>
         <li class="my_skills">Javascript</li>
-        <li class="my_skills">Tuby</li>
+        <li class="my_skills">Python</li>
         <li class="my_skills">Html</li>
         <li class="my_skills">Css</li>
     </ul>
@@ -86,20 +88,21 @@ save_as: index.html
     <ul>
         <li class="frameworks">Frameworks</li>
         <li class="my_skills">Bootstrap</li>
-        <li class="my_skills">Ruby on Rails</li>
-        <li class="my_skills">RSPec</li>
-        <li class="my_skills">Capy Bara</li>
-        <li class="my_skills">Solenium</li>
+        <li class="my_skills">Django</li>
+        <li class="my_skills">Pelican</li>
+        <li class="my_skills">React</li>
+        <li class="my_skills">Flask</li>
     </ul>
     </div>
     <div class="skills_skillset">
     <ul>
         <li class="skills">Skills</li>
-        <li class="my_skills">Codekit</li>
         <li class="my_skills">Github</li>
-        <li class="my_skills">Codepen</li>
+        <li class="my_skills">Git</li>
         <li class="my_skills">Gitlab</li>
         <li class="my_skills">Terminal</li>
+          <li class="my_skills">Vim</li>
+            <li class="my_skills">AWS</li>
     </ul>
     </div>
 </div>

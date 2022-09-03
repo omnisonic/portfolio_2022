@@ -957,13 +957,12 @@ html {
   
     .about-me {
       background-color: #1c1a19;
-      background-image: url("https://freepngimg.com/thumb/paint/99630-color-paint-art-free-hq-image.png");
+      background-image: url("./images/About-me-illustration-img.png");
       background-repeat: no-repeat;
       background-position-x: right;
       background-position-y: 90px;
       background-size: 40%;
       height: auto;
-      border-radius: 20px;
     }
   
     .image-container {
@@ -1048,5 +1047,14 @@ html {
       margin-top: 0;
       margin-bottom: 15px;
     }
+  }
+
+  .hero-image {
+    background-image: url("https://freepngimg.com/thumb/paint/99630-color-paint-art-free-hq-image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: auto;
+    margin: 20px;
+
   }
   

@@ -17,7 +17,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-MENUITEMS = (('Contact', './#Contact'),)
+MENUITEMS = (('Contact', './#Contact'),('Work', './#Projects'),('About', './#About'))
 
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),

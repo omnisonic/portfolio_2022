@@ -91,7 +91,7 @@ const portfolio = document.getElementById('Portfolio');
 let template = '';
 for (let i = 1; i < projects.length; i += 1) {
   template += `
-  <div class="grid-item">
+  <div class="grid-item project-tile">
       <div class="grid-item-headline">
           <h3>${projects[i].title}</h3>
           <p>${projects[i].desc}</p>

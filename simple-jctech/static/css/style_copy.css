@@ -1048,4 +1048,13 @@ html {
       margin-bottom: 15px;
     }
   }
+
+  .hero-image {
+    background-image: url("https://freepngimg.com/thumb/paint/99630-color-paint-art-free-hq-image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: auto;
+    margin: 20px;
+
+  }
   
