@@ -17,6 +17,8 @@ html {
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
+    border-radius: 20px;
+
   }
   
   
@@ -122,7 +124,7 @@ html {
     height: 500px;
     background-color: #1c1a19;
     padding: 0 24px 130px 24px;
-    background-image: url("./images/Intro_background_image.png");
+    background-image: url("/theme/images/ink_spatter_(4).png");
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 110%;
@@ -450,12 +452,14 @@ html {
     margin-top: 100px;
     background: #1c1a19;
     color: #fff;
+    margin-left: 30px;
+    margin-right: 30px;
   }
   
   .image-container {
     height: 300px;
     width: 100%;
-    background-image: url("https://freepngimg.com/thumb/paint/99630-color-paint-art-free-hq-image.png");
+    background-image: url("/theme/images/ink_spatter_(4).png");
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
@@ -485,7 +489,7 @@ html {
   }
   
   .description_about_my_self button {
-    margin-left: 24px;
+    margin: 0 24px 24px 24px;
   }
   
   .language_frameworks_and_skills {
@@ -502,7 +506,7 @@ html {
     font-weight: bold;
     font-size: 42px;
     line-height: 44px;
-    list-style-image: url("./images/Rectangle_bullet.png");
+    list-style-image: url("/theme/images/ink_spatter_bullit(2).png");
     list-style-position: inside;
     color: white;
     padding: 20px;
@@ -514,7 +518,7 @@ html {
     font-weight: bold;
     font-size: 42px;
     line-height: 44px;
-    list-style-image: url("./images/Rohbos_bullet.png");
+    list-style-image: url("/theme/images/ink_spatter_bullit(2).png");
     list-style-position: inside;
     color: white;
     padding: 20px;
@@ -526,7 +530,7 @@ html {
     font-weight: bold;
     font-size: 42px;
     line-height: 44px;
-    list-style-image: url("./images/Circle_bullet.png");
+    list-style-image: url("/theme/images/ink_spatter_bullit(2).png");
     list-style-position: inside;
     color: white;
     padding: 20px;
@@ -936,7 +940,7 @@ html {
     .grid-item {
       display: flex;
       flex-direction: column;
-      background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgb(61, 85, 106) 61.94%), url(https://freepngimg.com/thumb/paint/99630-color-paint-art-free-hq-image.png);
+      background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgb(39, 44, 57) 61.94%), url("/theme/images/ink_spatter_(4).png");
       background-repeat: no-repeat;
       background-size: 100% 100%;
       height: auto;
@@ -957,12 +961,13 @@ html {
   
     .about-me {
       background-color: #1c1a19;
-      background-image: url("./images/About-me-illustration-img.png");
+      background-image: url("/theme/images/ink_spatter_(4).png");
       background-repeat: no-repeat;
       background-position-x: right;
       background-position-y: 90px;
       background-size: 40%;
       height: auto;
+      border-radius: 30px;
     }
   
     .image-container {
@@ -978,7 +983,8 @@ html {
       line-height: 82px;
       letter-spacing: 0;
       text-align: left;
-      padding-left: 140px;
+      padding-left: 40px;
+      padding-right: 40px;
     }
   
     .description_about_my_self p {
@@ -1050,9 +1056,9 @@ html {
   }
 
   .hero-image {
-    background-image: url("https://freepngimg.com/thumb/paint/99630-color-paint-art-free-hq-image.png");
+    background-image: url("/theme/images/ink_spatter_(4).png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 80%;
     width: auto;
     margin: 20px;
 
